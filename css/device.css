@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+    :root {
+        --bg: #112D32;
+        --primary: #88BDBC;
+        --accent: #6E6658;
+        --black: #111111;
+        --white: #F5F5F5;
+        --regular-font: 14px;
+        --heading-font: 20px;
+        --main-heading: 40px;
+    }
+    .hero-section{
+        height: 600px;
+    }
+    .introduction h4{
+        font-size: var(--main-heading);
+        margin-bottom: 30px;
+    }
+    .introduction p{
+        margin-bottom: 30px;
+    }
+    .about-div img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .blog-imgHome {
+        height: 300px;
+    }
+    .footer-social li{
+        margin-right: 10px;
+    }
+}

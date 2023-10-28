@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+:root {
+    --bg: #112D32;
+    --primary: #88BDBC;
+    --accent: #6E6658;
+    --black: #111111;
+    --white: #F5F5F5;
+    --regular-font: 14px;
+    --heading-font: 20px;
+    --main-heading: 40px;
+    --shadow: #64646F33 0px 7px 29px 0px;
+    --radi: 10px;
+}
+
+a:hover {
+    color: var(--primary);
+    transition-duration: 0.3ms;
+    text-decoration: none;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h6 {
+    font-size: var(--heading-font);
+    text-transform: capitalize;
+}
+
+.section-title p {
+    font-size: var(--regular-font);
+}
+
+.material {
+    box-shadow: #64646F33 0px 7px 29px 0px;
+    padding: 5px;
+    border-radius: var(--border-radius);
+    background-color: var(--white);
+
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* Hide overflow content within the section */
+    margin-bottom: 100px;
+    height: 800px;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/blogimg1.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(30%);
+    /* Apply brightness filter only to the background image */
+    background-color: var(--bg) !important;
+    /* Replace with your desired hex color */
+    opacity: 0.;
+    /* Adjust the opacity as needed */
+    z-index: -1;
+    /* Place the pseudo-element behind the content */
+}
+
+.navbar {
+    min-height: 100px;
+    background-color: transparent !important;
+    margin-bottom: 100px;
+    color: var(--white) !important;
+    border-bottom: 1px solid var(--accent);
+}
+
+.navbar-nav {
+    margin: ;
+}
+
+.navbar-brand {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    font-size: 30px;
+    color: var(--white);
+    border: none;
+    background: transparent;
+    box-shadow: none !important;
+}
+
+.nav-item .nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 40px;
+    margin-right: 20px;
+    color: var(--white);
+    transition: all 0.2s ease 0s;
+}
+
+.nav-item .nav-link:hover,
+a:focus,
+a:active {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.nav-item .nav-link.active {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    transition: all 0.2s ease 0s;
+}
+
+.nav-item .nav-link.active-underline {
+    border-bottom: 3px solid var(--accent);
+}
+
+.download-cv {
+    padding: 20px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid 1px var(--primary);
+}
+
+.download-cv:hover,
+.download-cv:focus {
+    background-color: var(--accent);
+    transition: background-color 0.7s, color 0.3s;
+    color: var(--white);
+    border: none;
+}
+
+.btn-close {
+    background-color: var(--accent) !important;
+    color: var(--white) !important;
+}
+
+.canvas-custom {
+    background-color: var(--bg);
+    color: var(--white);
+}
+
+ul.myCanvas_list {
+    padding: 0;
+    margin: 0;
+}
+
+.myCanvas_list li {
+    text-transform: capitalize;
+    display: block;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--accent);
+}
+
+.myCanvas_list li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.myCanvas_list li a:hover {
+    color: var(--primary);
+}
+
+ul.myCanvas_socials {
+    margin: 0;
+    padding: 0;
+}
+
+.myCanvas_socials li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.myCanvas_socials li a {
+    text-decoration: none;
+}
+
+.myCanvas_socials li a:hover {}
+
+.myCanvas_socials .la-facebook {
+    color: #354db5;
+}
+
+.myCanvas_socials .la-twitter {
+    color: #23ABFF;
+}
+
+.myCanvas_socials .la-instagram {
+    color: #d6249f;
+}
+
+.myCanvas_socials .la-whatsapp {
+    color: #009710;
+}
+
+.myCanvas_socials .la-linkedin {
+    color: #0077B5;
+}
+
+.myCanvas_socials .la-github {
+    color: #171515;
+}
+
+.introduction {
+    color: var(--white);
+}
+
+.introduction h4 {
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 60px;
+}
+
+.introduction p {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.intro-btn {
+    color: var(--white);
+    background-color: var(--bg);
+    letter-spacing: 5px;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.intro-btn:hover,
+.intro-btn:focus {
+    background-color: var(--primary);
+    transition: background-color 0.7s, color 0.3s;
+    color: var(--white);
+}
+
+.about-section{
+    margin-bottom: 60px;
+}
+.about-image {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.services {
+    width: 100%;
+    margin-bottom: 50px;
+    box-shadow: var(--shadow);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.services:hover,
+.services:focus {
+    color: var(--white);
+    background-color: var(--bg);
+    transition: background-color 0.7s, color 0.3s;
+}
+
+.service-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gg-home-screen,
+.gg-pen,
+.gg-server,
+.gg-template {
+    color: var(--primary);
+    --ggs: 2;
+    margin-bottom: 60px;
+}
+
+.service-text h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: var(--heading-font);
+    margin-bottom: 20px;
+}
+
+.service-text p {
+    font-size: var(--regular-font);
+}
+
+.blog-post {
+    position: relative;
+}
+
+.blog-imgHome {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    filter: brightness(50%);
+}
+
+.blog-caption {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    color: var(--white);
+    padding: 30px;
+}
+
+.blog-title a {
+    font-size: var(--heading-font);
+    font-weight: 600;
+    line-height: 35px;
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    color: var(--primary);
+}
+
+.blog-meta {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-meta li {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.blog-meta li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.blog-meta li a:hover,
+.blog-meta li a:focus {
+    text-decoration: underline;
+}
+
+.see-all a {
+    font-size: var(--regular-font);
+    color: var(--bg);
+}
+
+.see-all a:hover,
+.see-all a:focus {}
+
+.foot {
+    background-color: var(--bg);
+}
+
+.footer-social {
+    text-align: center;
+}
+
+ul.footer-social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    line-height: 15px;
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer-social li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-social li a:hover,
+.footer-social li a:focus {}
+
+.footer-quick {}
+
+ul.footer-quick {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-quick li {
+    display: inline-block;
+}
+
+.footer-quick li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.footer-quick li a:hover,
+.footer-quick li a:focus {
+    color: var(--primary);
+}
+
+.copyright {
+    color: var(--white);
+    padding: 60px 0px;
+    border-top: 1px solid var(--accent);
+    text-align: center;
+}
+
+.copyright a {
+    color: var(--white);
+}
+
+.copyright a:hover,
+.copyright a:focus {
+    color: var(--primary);
+}

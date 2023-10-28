@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://css.gg/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/device.css">
+    <title>My Port</title>
+</head>
+
+<body>
+    
+    <div class="offcanvas canvas-custom offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="myCanvas_list mb-5">
+                <li><a href=""><span class="la la-home"></span> Home</a></li>
+                <li><a href=""><span class="la la-user"></span> About</a></li>
+                <li><a href=""><span class="la la-briefcase"></span> Services</a></li>
+                <li><a href=""><span class="la la-blog"></span> Blog</a></li>
+                <li><a href=""><span class="la la-address-book"></span> Contact</a></li>
+            </ul>
+            <ul class="myCanvas_socials">
+                <li><a href=""><span class="la la-github"></span></a></li>
+                <li><a href=""><span class="la la-linkedin"></span></a></li>
+                <li><a href=""><span class="la la-whatsapp"></span></a></li>
+                <li><a href=""><span class="la la-facebook"></span></a></li>
+                <li><a href=""><span class="la la-twitter"></span></a></li>
+                <li><a href=""><span class="la la-instagram"></span></a></li>
+
+            </ul>
+        </div>
+    </div>
+    <section class="hero-section">
+        <div class="container">
+            <nav class="navbar sticky-top navbar-expand-lg bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">GM.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                        aria-controls="offcanvasExample">
+                        <span class="la la-ellipsis-v"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <a href=""><button class="download-cv">Download Resume</button></a>
+                        </div>
+                    </div>
+        
+                </div>
+            </nav>
+            <div class="row text-center d-flex align-items-stretch">
+                <div class="col-md-12 introduction" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <p>Hello, I'm</p>
+                    <h4>Gabriel Munthali</h4>
+                    <p>A full stack web developer ready to work !</p>
+                    <a href=""><button class="intro-btn">Hire Me</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container about-section">
+            <div class="row">
+                <div class="section-title" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <h4>About Me</h4>
+                    <p>Here is a brief introduction about me</p>
+                </div>
+                <style>
+                    .about-container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        /* Center the content vertically in the viewport */
+                    }
+                
+                    .about-div {
+                        display: flex;
+                        align-items: center;
+                    }
+                
+                    .about-div p {
+                        flex: 1;
+                        text-align: center;
+                    }
+                
+                    .about-div img {
+                        width: 500px;
+                        height: 500px;
+                        border-radius: 10px;
+                        margin-left: 20px;
+                        /* Adjust the spacing between the paragraph and the image */
+                    }
+                </style>
+                <div class="about-container">
+                    <div class="about-div">
+                        <p>
+                            I hold a BSc in computing from the university of Greenwich, I'm a full stack web developer with
+                            a vast knowledge in information systems.
+                        
+                        </p>
+                        <img src="img/me.jpg" alt="Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #f1f7f6;">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="section-title mt-5" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <h4>Services</h4>
+                    <p>Check out the services on offer</p>
+                </div>
+                <div class="col-md-4 text-center d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400"
+                    data-aos-duration="1000">
+                    <div class="services">
+                        <div class="service-icon">
+                            <i class="gg-template"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>UX/UI</h4>
+                            <p>User inteface and experience design for application</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400"
+                    data-aos-duration="1000">
+                    <div class="services">
+                        <div class="service-icon">
+                            <i class="gg-server"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>Web Development</h4>
+                            <p>Full packaged web application developement</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400"
+                    data-aos-duration="1000">
+                    <div class="services">
+                        <div class="service-icon">
+                            <i class="gg-pen"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>Technical Writing</h4>
+                            <p>Comprehensive technical writing for IT projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mt-5" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <h4>Blog</h4>
+                    <p>View the latest from my blog</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 blog-post mb-4" data-aos="fade-up" data-aos-delay="400"
+                        data-aos-duration="1000">
+                        <img src="img/blogimg1.jpg" class="blog-imgHome img-fluid" alt="blog image">
+                        <div class="blog-caption" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                            <h4 class="blog-title mb-3"><a href="">This is a title for a blog post on landing </a></h4>
+                            <ul class="blog-meta">
+                                <li><a href=""><span class="la la-clock"></span></a></li>
+                                <li><a href=""><span class="la la-comments"></span></a></li>
+                                <li><a href=""><span class="la la-eye"></span></a></li>
+                            </ul>
+                        </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 blog-post mb-4">
+                        <img src="img/blogimg2.jpg" class="blog-imgHome img-fluid" alt="blog image" data-aos="fade-up"
+                            data-aos-delay="400" data-aos-duration="1000">
+                        <div class="blog-caption" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                            <h4 class="blog-title mb-3"><a href="">This is a title for a blog post on landing </a></h4>
+                            <ul class="blog-meta">
+                                <li><a href=""><span class="la la-clock"></span></a></li>
+                                <li><a href=""><span class="la la-comments"></span></a></li>
+                                <li><a href=""><span class="la la-eye"></span></a></li>
+                            </ul>
+                        </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 blog-post mb-4">
+                        <img src="img/blogimg3.jpg" class="blog-imgHome img-fluid" alt="blog image" data-aos="fade-up"
+                            data-aos-delay="400" data-aos-duration="1000">
+                        <div class="blog-caption" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                            <h4 class="blog-title mb-3"><a href="">This is a title for a blog post on landing </a></h4>
+                            <ul class="blog-meta">
+                                <li><a href=""><span class="la la-clock"></span></a></li>
+                                <li><a href=""><span class="la la-comments"></span></a></li>
+                                <li><a href=""><span class="la la-eye"></span></a></li>
+                            </ul>
+                        </div>
+                        </figure>
+                    </div>
+                </div>
+                <h4 class="see-all float-end mb-4"><a class="text-decoration-none" href="">See all</a></h4>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="footer-social mt-5 mb-5">
+                        <li><a href=""><span class="la la-github"></span></a></li>
+                        <li><a href=""><span class="la la-linkedin"></span></a></li>
+                        <li><a href=""><span class="la la-whatsapp"></span></a></li>
+                        <li><a href=""><span class="la la-facebook"></span></a></li>
+                        <li><a href=""><span class="la la-twitter"></span></a></li>
+                        <li><a href=""><span class="la la-instagram"></span></a></li>
+                    </ul>
+                    <ul class="footer-quick mb-5">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <p id="copyright" class="copyright">
+                        &copy;<span id="currentYear"></span> <a href="https://www/wa.me/265993996717"
+                            class="text-decoration-none">Gabriel Munthali <span
+                                class="ml-2 fa fa-cog fa-spin"></span></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
