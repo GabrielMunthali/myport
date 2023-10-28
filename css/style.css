@@ -149,7 +149,7 @@ a:active {
 
 .download-cv:hover,
 .download-cv:focus {
-    background-color: var(--accent);
+    background-color: var(--primary);
     transition: background-color 0.7s, color 0.3s;
     color: var(--white);
     border: none;
@@ -272,6 +272,31 @@ ul.myCanvas_socials {
     width: 400px;
     height: 400px;
     object-fit: cover;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Center the content vertically in the viewport */
+}
+
+.about-div {
+    display: flex;
+    align-items: center;
+}
+
+.about-div p {
+    flex: 1;
+    text-align: center;
+}
+
+.about-div img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 20px;
+    /* Adjust the spacing between the paragraph and the image */
 }
 
 .services {
