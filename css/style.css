@@ -436,7 +436,22 @@ ul.myCanvas_socials {
     z-index: -1;
     /* Place the pseudo-element behind the content */
 }
-
+.contact-title{
+    font-size: var(--heading-font);
+    margin-bottom: 50px;
+}
+ul.contact-address{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 100px;
+}
+.contact-address li{
+    display: block;
+    margin-bottom: 30px;
+}
+.contact-address .la{
+    margin-right: 20px;
+}
 .contact-form .form-group{
     margin-bottom: 30px;
 }
