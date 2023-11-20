@@ -296,7 +296,6 @@ ul.myCanvas_socials {
     height: 500px;
     border-radius: 10px;
     margin-left: 20px;
-    /* Adjust the spacing between the paragraph and the image */
 }
 
 .services {
@@ -435,6 +434,52 @@ ul.myCanvas_socials {
     /* Adjust the opacity as needed */
     z-index: -1;
     /* Place the pseudo-element behind the content */
+}
+.custom-media {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    border-bottom: 1px solid var(--white);
+}
+.custom-media img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+.custom-media-body {
+    flex: 1;
+}
+.custom-media-body h5{
+    font-size: var(--heading-font);
+}
+.custom-media-body h5 a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--regular-font);
+}
+.custom-media-body h6{
+    font-size: var(--regular-font);
+    font-style: italic;
+    color: var(--primary);
+}
+h5.custom-media-h5{
+    font-size: var(--regular-font);
+}
+.custom-media-body p {
+    margin-bottom: 0.5rem;
+}
+ul.custom-media-list{
+    padding: 0;
+    margin: 0;
+}
+.custom-media-list li{
+    display: block;
+    margin-bottom: 20px;
+}
+.custom-media-list .la{
+    margin-right: 10px;
 }
 .contact-title{
     font-size: var(--heading-font);
