@@ -21,7 +21,8 @@ body {
     --radi: 10px;
 }
 
-a:hover {
+a:hover,
+a:focus {
     color: var(--primary);
     transition-duration: 0.3ms;
     text-decoration: none;
@@ -165,12 +166,12 @@ a:active {
     color: var(--white);
 }
 
-ul.myCanvas_list {
+ul.myCanvas-list {
     padding: 0;
     margin: 0;
 }
 
-.myCanvas_list li {
+.myCanvas-list li {
     text-transform: capitalize;
     display: block;
     height: 50px;
@@ -180,53 +181,53 @@ ul.myCanvas_list {
     border-bottom: 2px solid var(--accent);
 }
 
-.myCanvas_list li a {
+.myCanvas-list li a {
     color: var(--white);
     text-decoration: none;
 }
 
-.myCanvas_list li a:hover {
+.myCanvas-list li a:hover {
     color: var(--primary);
 }
 
-ul.myCanvas_socials {
+ul.myCanvas-socials {
     margin: 0;
     padding: 0;
 }
 
-.myCanvas_socials li {
+.myCanvas-socials li {
     display: inline-block;
     margin-right: 20px;
     font-size: 30px;
 }
 
-.myCanvas_socials li a {
+.myCanvas-socials li a {
     text-decoration: none;
 }
 
-.myCanvas_socials li a:hover {}
+.myCanvas-socials li a:hover {}
 
-.myCanvas_socials .la-facebook {
+.myCanvas-socials .la-facebook {
     color: #354db5;
 }
 
-.myCanvas_socials .la-twitter {
+.myCanvas-socials .la-twitter {
     color: #23ABFF;
 }
 
-.myCanvas_socials .la-instagram {
+.myCanvas-socials .la-instagram {
     color: #d6249f;
 }
 
-.myCanvas_socials .la-whatsapp {
+.myCanvas-socials .la-whatsapp {
     color: #009710;
 }
 
-.myCanvas_socials .la-linkedin {
+.myCanvas-socials .la-linkedin {
     color: #0077B5;
 }
 
-.myCanvas_socials .la-github {
+.myCanvas-socials .la-github {
     color: #171515;
 }
 
@@ -670,7 +671,7 @@ ul.postPage-share {
     border-radius: 50%;
 }
 
-.comm_name {
+.comm-name {
     margin-top: 0;
     font-size: var(--regular-font);
     font-weight: 700;
@@ -680,7 +681,7 @@ ul.postPage-share {
 
 .comm-body p {}
 
-.comm_form {
+.comm-form {
     position: relative;
     z-index: 1;
     height: 50px;
@@ -694,13 +695,13 @@ ul.postPage-share {
     transition-duration: 500ms;
 }
 
-.comm_form:focus {
+.comm-form:focus {
     color: var(--black);
     background-color: var(--white);
     box-shadow: none;
 }
 
-textarea.comm_text {
+textarea.comm-text {
     position: relative;
     background-color: var(--white);
     border: 0px solid var(--white);
@@ -712,13 +713,13 @@ textarea.comm_text {
     transition-duration: 500ms;
 }
 
-textarea.comm_text:focus {
+textarea.comm-text:focus {
     color: var(--black);
     background-color: var(--white);
     box-shadow: none;
 }
 
-.comm_btn {
+.comm-btn {
     letter-spacing: 5px;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -729,8 +730,8 @@ textarea.comm_text:focus {
     width: 100%;
     border-radius: 10px;
 }
-.comm_btn:hover,
-.comm_btn:focus{
+.comm-btn:hover,
+.comm-btn:focus{
     background-color: var(--primary);
     transition: background-color 0.7s, color 0.3s;
     color: var(--white);
